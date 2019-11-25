@@ -7,4 +7,4 @@ def index(request):
     return HttpResponse("This is the index page !")
 
 def task_view(request):
-    return HttpResponse("This is the task page !")
+    return HttpResponse("This is the task page ! \n Hello world !")
